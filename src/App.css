@@ -1,5 +1,36 @@
+body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
+  color: white;
+}
+
+.App a {
+  text-decoration: none;
+  color: white;
+}
+
+#shipDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 20%;
+}
+
+.card {
+  background-color: gray;
+  height: 80px;
+  width: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+.card-link {
+  padding-top: 26px;
 }
 
 .App-logo {
@@ -13,7 +44,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,8 +52,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
