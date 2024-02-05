@@ -28,7 +28,7 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element={<Main starships={starships} />} />
-          {/* <Route path="/starship/:name" element={<Main starships={starships}/>} /> */}
+          {/* TODO: Path for /starship/:name to render more details about selected startship */}
         </Routes>
       </center>
     </div>
